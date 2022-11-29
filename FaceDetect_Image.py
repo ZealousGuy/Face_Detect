@@ -1,7 +1,7 @@
 # importing OpenCV
 import cv2 as c
 # loading haar data for face detection
-haar_data=c.CascadeClassifier("Face_detection/haarcascade_frontalface_default.xml")
+haar_data=c.CascadeClassifier("HAAR/haarcascade_frontalface_default.xml")
 
 # -->Reading Image for Input
 img = c.imread("photos/photo-1501386761578-eac5c94b800a.jpeg")
