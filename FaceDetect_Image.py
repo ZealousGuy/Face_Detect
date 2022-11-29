@@ -3,7 +3,7 @@ import cv2 as c
 # loading haar data for face detection
 haar_data=c.CascadeClassifier("HAAR/haarcascade_frontalface_default.xml")
 
-# -->Reading Image for Input
+# -->Reading Image for Input Change for another Image
 img = c.imread("photos/photo-1501386761578-eac5c94b800a.jpeg")
 
 # Detecting the face 
